@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>404 | Page Not Found - MAXWELL APPLIANCES</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+    darkMode: "class",
+    theme: {
+        extend: {
+        "colors": {
+                "surface-dim": "#080808",
+                "primary-container": "#e31e24",
+                "surface": "#111111",
+                "on-surface": "#ffffff",
+                "on-surface-variant": "#a1a1aa"
+        },
+        "fontFamily": {
+                "cinzel": ["Cinzel", "serif"],
+                "space": ["Space Grotesk", "sans-serif"]
+        }
+        },
+    },
+    }
+</script>
+<style>
+    body { background-color: #080808; color: #ffffff; }
+</style>
+</head>
+<body class="font-space overflow-x-hidden selection:bg-primary-container selection:text-white min-h-screen flex items-center justify-center">
+
+<div class="text-center px-4">
+    <h1 class="text-9xl font-cinzel font-black text-primary-container drop-shadow-[0_0_30px_rgba(227,30,36,0.5)] mb-4">404</h1>
+    <h2 class="text-2xl md:text-4xl font-bold mb-6">Page Not Found</h2>
+    <p class="text-on-surface-variant max-w-md mx-auto mb-10">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+    <a href="/" class="inline-flex items-center justify-center bg-primary-container text-white px-8 py-4 rounded-full font-bold uppercase tracking-wider hover:bg-white hover:text-black transition-colors duration-300">
+        Return Home
+    </a>
+</div>
+
+</body>
+</html>
